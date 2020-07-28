@@ -72,7 +72,7 @@ interface bgImg {
 }
 
 export const BannerMainContainer = styled.section<bgImg>`
-  height: 80vh;
+  height: 90vh;
   position: relative;
   color: var(--white);
   background-image: ${props => `url(${props.backgroundImage})`};
